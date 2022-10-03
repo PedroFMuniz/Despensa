@@ -122,4 +122,20 @@ public class ControlPessoa {
 			}
 		}
 	}
+	
+	public void Excluir(Pessoa p) throws SAXException, IOException, ParserConfigurationException, TransformerException {
+		Document doc = getXML();
+		Element root = doc.getDocumentElement();
+		Element pessoas = (Element) root.getElementsByTagName("pessoas").item(0);
+		NodeList ps = pessoas.getElementsByTagName("pessoa");
+		for (int i = 0; i < ps.getLength(); i++) {
+			Element e = (Element) ps.item(i);
+			int id = Integer.parseInt(e.getElementsByTagName("id").item(0).getTextContent());
+			if (p.getId() == id) {
+				pessoas.removeChild(e);
+				setXML(doc);
+				break;
+			}
+		}
+	}
 }

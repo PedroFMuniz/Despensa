@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><root>
     <pessoas>
         <pessoa><id>0</id><nome>Pedro</nome></pessoa> 
-        <pessoa><id>1</id><nome>Editado</nome></pessoa> 
-    <pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa></pessoas>
+         
+    <pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa></pessoas>
 </root>

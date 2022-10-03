@@ -52,5 +52,13 @@ class testesControlPessoa {
 		assertEquals(1, p.listar(1).get(0).getId());
 		assertEquals("Editado", p.listar(1).get(0).getNome());
 	}
+	
+	@Test
+	void testExcluir() throws SAXException, IOException, ParserConfigurationException, TransformerException {
+		ControlPessoa p = new ControlPessoa();
+		Pessoa pessoa = new Pessoa(1, "Editado");
+		p.Excluir(pessoa);
+		assertEquals(null, p.listar(1));
+	}
 
 }
