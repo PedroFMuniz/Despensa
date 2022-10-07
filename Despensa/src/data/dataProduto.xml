@@ -1,0 +1,5 @@
+<root>
+	<produtos>
+		<produto><id>0</id><nome>Farinha de trigo</nome><valor>10.00</valor><tipo>Farinha</tipo><unidade>Kg</unidade><tamanho>1.00</tamanho></produto>
+    </produtos>
+</root>

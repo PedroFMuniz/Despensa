@@ -2,5 +2,5 @@
     <pessoas>
         <pessoa><id>0</id><nome>Pedro</nome></pessoa> 
          
-    <pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa><pessoa><id>2</id><nome>Jorge</nome></pessoa></pessoas>
+    <pessoa><id>2</id><nome>Jorge</nome></pessoa></pessoas>
 </root>
